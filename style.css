@@ -1,8 +1,8 @@
 body {
-    background: rgb(245, 232, 184);
-    color: rgb(239, 193, 123);
+    background: rgb(231, 230, 165);
+    color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: arial;
 }
 #all-contents {
   max-width: 800px;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(236, 206, 131);
+    background: rgb(245, 225, 164);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -33,6 +33,32 @@ h1 {
 a {
     text-decoration: none;
     color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* portfolio styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 0px;
 }
 
 /* portfolio styles */
